@@ -1,0 +1,30 @@
+Fraud Data Results:
+Logistic Regression:
+  AUC-PR: 0.6222
+  F1-Score: 0.6819
+  Confusion Matrix:
+[[27341    52]
+ [ 1339  1491]]
+
+LightGBM:
+  AUC-PR: 0.6185
+  F1-Score: 0.6901
+  Confusion Matrix:
+[[27393     0]
+ [ 1339  1491]]
+
+Credit Card Data Results:
+Logistic Regression:
+  AUC-PR: 0.7321
+  F1-Score: 0.1378
+  Confusion Matrix:
+[[55624  1027]
+ [   12    83]]
+
+LightGBM:
+  AUC-PR: 0.8111
+  F1-Score: 0.7404
+  Confusion Matrix:
+[[56615    36]
+ [   18    77]]
+
